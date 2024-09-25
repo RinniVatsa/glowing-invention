@@ -9,8 +9,9 @@ const BlogGridWithSidebar = ({ blogs }) => {
     };
 
     return ( <
-        div className = "main-layout" > { /* Sidebar */ } <
-        nav className = "sidebar" >
+        div className = "main-layout" > { /* Sidebar */ } < nav className = "sidebar" >
+
+
         <
         a href = "#dashboard" >
         <
@@ -22,36 +23,53 @@ const BlogGridWithSidebar = ({ blogs }) => {
         a href = "#blog" >
         <
         img src = "/Plan.png"
-        alt = "home Icon"
+        alt = "Blogs Icon"
         className = "sidebar-icon" / >
         Blogs <
-        /a><
-        a href = "#Finance" >
+        /a> <
+        a href = "#finance" >
         <
         img src = "/Vector (Stroke).png"
-        alt = "home Icon"
+        alt = "Finance Icon"
         className = "sidebar-icon" / >
         Finance <
-        /a><
-        a href = "#Pitches" > <
-        img src = "/Diagram.png"
-        alt = "home Icon"
-        className = "sidebar-icon" / >
-        Pitche <
         /a> <
-        a href = "#Setting" > <
-        img src = "/settings.png"
-        alt = "home Icon"
+        a href = "#pitches" >
+        <
+        img src = "/Diagram.png"
+        alt = "Pitches Icon"
         className = "sidebar-icon" / >
-        Setting <
-        /a>  <
-        a href = "#Logout" > <
+        Pitches <
+        /a> 
+
+
+        <
+        div className = "sidebar-footer" >
+        <
+        a href = "#settings" >
+        <
+        img src = "/settings.png"
+        alt = "Settings Icon"
+        className = "sidebar-icon" / >
+        Settings <
+        /a> <
+        a href = "#logout" >
+        <
         img src = "/Vector.png"
-        alt = "home Icon"
+        alt = "Logout Icon"
         className = "sidebar-icon" / >
         Log out <
-        /a>  < /
-        nav >
+        /a>          
+
+
+
+
+
+        <
+        /
+        div > <
+        /nav>
+
 
         { /* Blog Section */ } <
         div className = "blog-content" >
@@ -79,7 +97,11 @@ const BlogGridWithSidebar = ({ blogs }) => {
                 <
                 h3 className = "blog-title" > { blog.title } < /h3> <
                 p className = "blog-description" > { blog.description } < /p> <
-                div className = "blog-footer" >
+                div className = "blog-footer" > <
+                img src = "/calendar_month.png"
+                alt = "home Icon"
+                className = "calenderr-icon" / >
+
                 <
                 span className = "blog-date" > { blog.date } < /span> < /
                 div > <

@@ -26,7 +26,7 @@ const Header = ({ username, userImage }) => {
         span > <
         /div> < img className = 'profile-image'
         alt = 'icon'
-        src = "/Search.png" /
+        src = "/folder.png" /
         >
         <
         div className = "search-bar" >

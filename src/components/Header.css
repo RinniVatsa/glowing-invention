@@ -14,7 +14,7 @@
     }
     
     .search-bar input {
-        padding: 8px;
+        padding: 10px;
         margin-right: 10px;
         border-radius: 1px;
         color: #9D9DAA;
@@ -25,13 +25,19 @@
         top: 2px;
         left: 28px;
         gap: 0px;
-        opacity: 0px;
+        opacity: 1px;
+        margin-right: 100px;
     }
     
     .user-info {
         display: flex;
-        align-items: center;
-        font-size: small;
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        color: #676E7E;
+        gap: 0px;
     }
     
     .user-info span {
@@ -40,8 +46,10 @@
     }
     
     .user-image {
-        width: 40px;
-        height: 40px;
+        width: 46px;
+        height: 46px;
+        gap: 0px;
+        opacity: 1px;
         border-radius: 50%;
         margin-right: 15px;
     }
@@ -61,6 +69,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-left: -110px;
     }
     
     .dropdown {
@@ -98,7 +107,11 @@
         height: 20px;
         padding: 1.67px;
         color: #9D9DAA;
-        margin-left: 150px;
+        margin-left: 170px;
+    }
+    
+    .add-button:hover {
+        background-color: #eaeef1;
     }
     
     .logo-image {
